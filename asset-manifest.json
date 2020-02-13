@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/first-react-calculator/static/css/main.506b18da.chunk.css",
+    "main.js": "/first-react-calculator/static/js/main.abc52cad.chunk.js",
+    "main.js.map": "/first-react-calculator/static/js/main.abc52cad.chunk.js.map",
+    "runtime-main.js": "/first-react-calculator/static/js/runtime-main.9be07481.js",
+    "runtime-main.js.map": "/first-react-calculator/static/js/runtime-main.9be07481.js.map",
+    "static/js/2.f1be420e.chunk.js": "/first-react-calculator/static/js/2.f1be420e.chunk.js",
+    "static/js/2.f1be420e.chunk.js.map": "/first-react-calculator/static/js/2.f1be420e.chunk.js.map",
+    "index.html": "/first-react-calculator/index.html",
+    "precache-manifest.ddff1df89e38b4ca7df697e9ef877534.js": "/first-react-calculator/precache-manifest.ddff1df89e38b4ca7df697e9ef877534.js",
+    "service-worker.js": "/first-react-calculator/service-worker.js",
+    "static/css/main.506b18da.chunk.css.map": "/first-react-calculator/static/css/main.506b18da.chunk.css.map",
+    "static/js/2.f1be420e.chunk.js.LICENSE.txt": "/first-react-calculator/static/js/2.f1be420e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9be07481.js",
+    "static/js/2.f1be420e.chunk.js",
+    "static/css/main.506b18da.chunk.css",
+    "static/js/main.abc52cad.chunk.js"
+  ]
+}
