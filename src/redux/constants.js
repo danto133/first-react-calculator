@@ -1,0 +1,1 @@
+export const ON_SHOW_HISTORY = 'ON_SHOW_HISTORY';

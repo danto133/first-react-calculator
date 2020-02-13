@@ -1,0 +1,72 @@
+.history {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: calc(75% - 1rem);
+    height: calc(60% * 4 / 5 - 0.5rem);
+    padding: 0 0 1.25rem 1.25rem ;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 11;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.history.hidden {
+    opacity: 0;
+    z-index: 9;
+}
+
+.history-list {
+    height: 100%;
+    margin: 0.25rem;
+    padding-bottom: 2rem;
+}
+
+.history-item {
+    text-align: right;
+}
+
+.history-item-formula {
+    color: #aaa;
+    padding: 0 1rem;
+}
+
+.history-item-result {
+    cursor: pointer;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+
+.history-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-btn button {
+    width: calc(50% - 0.5rem);
+    padding: 0.625rem 1rem;
+    margin: 0.25rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    border-radius: 1.35rem;
+    background-color: #E7F0F2;
+    transition: background-color 0.35s ease-out;
+    -webkit-transition: background-color 0.35s ease-out;
+    -moz-transition: background-color 0.35s ease-out;
+    cursor: pointer;
+}
+
+.history-btn button:active {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    outline: none;
+}
+
